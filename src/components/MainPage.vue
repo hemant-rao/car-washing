@@ -111,7 +111,7 @@
     <!-- crousle end here -->
     <!-- about start here -->
     <div id="about-section" class="about">
-      <div class="container">
+      <div class="main-container">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="about-img">
@@ -151,7 +151,7 @@
 
     <!-- service start here -->
     <div id="service-section" class="service">
-      <div class="container">
+      <div class="main-container">
         <div class="section-header text-center">
           <p>What We Do?</p>
           <h2>Premium Washing Services</h2>
@@ -287,75 +287,99 @@
     <!-- facts end here -->
     <!-- plan start here  -->
     <div id="price-section" class="price">
-      <div class="container">
+      <div class="main-container">
         <div class="section-header text-center">
           <p>Washing Plan</p>
           <h2>Choose Your Plan</h2>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="price-item">
-              <div class="price-header">
-                <h3>Basic Cleaning</h3>
-                <h2><span>$</span><strong>25</strong><span>.99</span></h2>
-              </div>
-              <div class="price-body">
-                <ul>
-                  <li><i class="far fa-check-circle"></i>Seats Washing</li>
-                  <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
-                  <li><i class="far fa-check-circle"></i>Exterior Cleaning</li>
-                  <li>
-                    <i class="far fa-times-circle"></i>Interior Wet Cleaning
-                  </li>
-                  <li><i class="far fa-times-circle"></i>Window Wiping</li>
-                </ul>
-              </div>
-              <div class="price-footer">
-                <a class="btn btn-custom" href="">Book Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="price-item featured-item">
-              <div class="price-header">
-                <h3>Premium Cleaning</h3>
-                <h2><span>$</span><strong>35</strong><span>.99</span></h2>
-              </div>
-              <div class="price-body">
-                <ul>
-                  <li><i class="far fa-check-circle"></i>Seats Washing</li>
-                  <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
-                  <li><i class="far fa-check-circle"></i>Exterior Cleaning</li>
-                  <li>
-                    <i class="far fa-check-circle"></i>Interior Wet Cleaning
-                  </li>
-                  <li><i class="far fa-times-circle"></i>Window Wiping</li>
-                </ul>
-              </div>
-              <div class="price-footer">
-                <a class="btn btn-custom" href="">Book Now</a>
+            <div class="price-item featured-item p-3">
+              <div class="border hover-border-change">
+                <div class="price-header">
+                  <h3>Basic Cleaning</h3>
+                  <h2><span>$</span><strong>25</strong><span>.99</span></h2>
+                </div>
+                <div class="price-body">
+                  <ul>
+                    <li><i class="far fa-check-circle"></i>Seats Washing</li>
+                    <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
+                    <li>
+                      <i class="far fa-check-circle"></i>Exterior Cleaning
+                    </li>
+                    <li>
+                      <i class="far fa-times-circle"></i>Interior Wet Cleaning
+                    </li>
+                    <li><i class="far fa-times-circle"></i>Window Wiping</li>
+                  </ul>
+                </div>
+                <div class="price-footer">
+                  <a
+                    class="btn btn-custom"
+                    href="https://wa.me/8299001059/?text=hello-Message"
+                    >Book Now</a
+                  >
+                </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="price-item">
-              <div class="price-header">
-                <h3>Complex Cleaning</h3>
-                <h2><span>$</span><strong>49</strong><span>.99</span></h2>
+            <div class="price-item featured-item p-3">
+              <div class="border hover-border-change">
+                <div class="price-header">
+                  <h3>Premium Cleaning</h3>
+                  <h2><span>$</span><strong>35</strong><span>.99</span></h2>
+                </div>
+                <div class="price-body">
+                  <ul>
+                    <li><i class="far fa-check-circle"></i>Seats Washing</li>
+                    <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
+                    <li>
+                      <i class="far fa-check-circle"></i>Exterior Cleaning
+                    </li>
+                    <li>
+                      <i class="far fa-check-circle"></i>Interior Wet Cleaning
+                    </li>
+                    <li><i class="far fa-times-circle"></i>Window Wiping</li>
+                  </ul>
+                </div>
+                <div class="price-footer">
+                  <a
+                    class="btn btn-custom"
+                    href="https://wa.me/8299001059/?text=hello-Message2"
+                    >Book Now</a
+                  >
+                </div>
               </div>
-              <div class="price-body">
-                <ul>
-                  <li><i class="far fa-check-circle"></i>Seats Washing</li>
-                  <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
-                  <li><i class="far fa-check-circle"></i>Exterior Cleaning</li>
-                  <li>
-                    <i class="far fa-check-circle"></i>Interior Wet Cleaning
-                  </li>
-                  <li><i class="far fa-check-circle"></i>Window Wiping</li>
-                </ul>
-              </div>
-              <div class="price-footer">
-                <a class="btn btn-custom" href="">Book Now</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="price-item featured-item p-3">
+              <div class="border hover-border-change">
+                <div class="price-header">
+                  <h3>Complex Cleaning</h3>
+                  <h2><span>$</span><strong>49</strong><span>.99</span></h2>
+                </div>
+                <div class="price-body">
+                  <ul>
+                    <li><i class="far fa-check-circle"></i>Seats Washing</li>
+                    <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
+                    <li>
+                      <i class="far fa-check-circle"></i>Exterior Cleaning
+                    </li>
+                    <li>
+                      <i class="far fa-check-circle"></i>Interior Wet Cleaning
+                    </li>
+                    <li><i class="far fa-check-circle"></i>Window Wiping</li>
+                  </ul>
+                </div>
+                <div class="price-footer">
+                  <a
+                    class="btn btn-custom"
+                    href="https://wa.me/8299001059/?text=hello-Message3"
+                    >Book Now</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -365,7 +389,7 @@
     <!-- plan end here -->
     <!-- location start here -->
     <div id="contact-section" class="location">
-      <div class="container">
+      <div class="main-container">
         <div class="row">
           <div class="col-lg-7">
             <div class="section-header text-left">
@@ -457,7 +481,7 @@
     <!-- location end here -->
     <!-- footer start here -->
     <div class="footer">
-      <div class="container copyright">
+      <div class="main-container copyright">
         <p>© <a href="#">My shop name</a>, All Right Reserved</p>
       </div>
     </div>
@@ -524,6 +548,34 @@ a {
   background-color: #ffffff !important;
   border-bottom: 1px solid #ccc;
   color: #4cc1bb;
+}
+.carousel {
+  position: relative;
+  max-height: 500px;
+  margin: 0 auto;
+  height: 500px;
+  max-width: 92%;
+  margin-top: 15px;
+}
+.main-container {
+  max-width: 92%;
+  margin: 0 auto;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  max-height: 100%;
+}
+.carousel-item,
+.carousel-item img {
+  height: 100%;
+  max-height: 100%;
+}
+
+.price-item.featured-item:hover .hover-border-change {
+  border-color: #e81c2e !important;
 }
 .service-item-img {
   height: 75px !important;
@@ -746,6 +798,10 @@ a {
   background: #ffffff;
   border-radius: 5px;
   text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+.price-item.featured-item:hover {
+  transform: scale(1.03);
 }
 .price .price-header {
   padding: 45px 0 30px 0;
